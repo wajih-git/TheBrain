@@ -1,0 +1,29 @@
+{
+  "version": "2.1.0",
+  "name": "TheBrain",
+  "description": "Ask the Brain any questions",
+  "launch_path": "/index.html",
+  "icons": {
+    "56": "/img/icons/icon_56b.png",
+    "112": "/img/icons/icon_112b.png"
+  },
+  "developer": {
+    "name": "Wajih",
+    "url": "http://www.opensource-iot.org"
+  },
+  "type" : "certified",
+  "permissions": {
+    "systemXHR":{}
+  },
+  "installs_allowed_from": [
+    "*"
+  ],
+  "locales": {
+    "en-US": {
+      "name": "TheBrain",
+      "description": "Ask the Brain amy questions",
+      "permissions": {"systemXHR": {"description": "Required to load remote content"}}
+    }
+  },
+  "default_locale": "en-US"
+}

@@ -1,0 +1,38 @@
+.input {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 0px;
+  position: relative;
+  padding-top: 0px;
+  color: #ee7a0d;
+  background-color: #faf7f7c9;
+}
+
+.input input {
+  font-weight: 100;
+  font-size: 15px;
+  color: #ffffff;
+  background-color: #ffffff;
+}
+
+.input input:focus { outline: 0px solid #faf7f7c9;}
+
+
+.input label {
+  bottom: 0;
+  font-size: 15px;
+  color: #0b8a57;
+  background-color: #faf7f7c9;
+}
+
+.input input::placeholder {
+  color: transparent;
+}
+
+#status {
+  font-weight: 150;
+  font-size: 15px;
+  color: #0b8a57;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #faf7f7c9;
+}
